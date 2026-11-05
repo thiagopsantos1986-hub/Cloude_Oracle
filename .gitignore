@@ -1,0 +1,34 @@
+# Credenciais e configuração de conexão
+*.env
+.env*
+tnsnames.ora
+sqlnet.ora
+wallet/
+Wallet_*/
+*.sso
+*.p12
+cwallet*
+ewallet*
+connection*.properties
+*credentials*
+
+# Dumps e dados
+*.dmp
+*.dmp.gz
+*.exp
+*.csv
+*.xlsx
+
+# Logs e saídas
+*.log
+*.lst
+*.out
+*.bad
+*.dsc
+
+# IDEs (SQL Developer, VS Code, Toad, etc.)
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
